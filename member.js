@@ -1,12 +1,7 @@
 function skillMember() {
-    return {
-        restrict: 'E',
-        templateUrl: "modules/skills/views/member.html",
-        controller: "SkillsMemberController",
-        controllerAs: "vm",
-        bindToController: true,
-        scope: {
-            member: "*"
-        }
-    }
+  var member = {
+    skill: 'programming',
+    level: 5
+  };
+  return member;
 }
